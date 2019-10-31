@@ -1,0 +1,26 @@
+/*!
+Theme Name: Like Eating
+Theme URI: 
+Description: Like Eating
+Author: Yurii Horbach
+Author URI: https://twitter.com/MrAhmadAwais/
+License: MIT
+Text Domain: WPGT
+*/
+
+// Mixins & Variables.
+@import 'partials/mixins';
+@import 'partials/variables';
+
+// Normalize & Santize.
+@import 'vendor/normalize';
+@import 'vendor/sanitize';
+
+// Structure.
+@import 'partials/structure';
+
+// WPCore.
+@import 'partials/wpcore';
+
+// Base.
+@import 'partials/base';
